@@ -1,0 +1,117 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    background-color:#f2f2f2;
+    margin: 36px auto;
+    width: 740px;
+}
+
+#page {
+    box-shadow: 0 2px 5px rgb(0, 119, 255);
+    float:left;
+    width: 820px;
+    padding:10px;
+}
+
+
+nav{
+    float:left;
+    width: 150px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;        
+}
+
+nav ul li {
+    margin: 5px;
+    padding: 10px;
+    text-transform:capitalize;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background: #FFFFFF;
+}
+
+nav ul li a {
+    color:#2662e3;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 5px;
+    padding: 10px;
+    text-transform:capitalize;
+    font-size: 20px;
+    border-radius: 152px 304px 228px 152px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#ffffff
+}
+
+section {
+    float:left;
+    width:570px;
+}
+
+article {
+    margin-bottom:5px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#ffffff;
+}
+
+p {
+    text-align:justify;
+}
+
+footer{
+    border-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    float: right;
+    text-align: center;
+    width: 550px;
+    padding:10px;
+}
+
+ion-card.adv-map p {
+    font-size: 0.7em !important;
+  }
+  
+  button[fab].fab-map {
+    top: calc(100% - 35px);
+    z-index: 50;
+  }
+  
+  .item-bold {
+    font-weight: bold;
+  }
+  
+  ion-content.cards-bg {
+    background-color: #f4f4f7;
+  }
+
+.action-sheets-basic-page {
+    .ion-md-share {
+      color: #ED4248;
+    }
+    .ion-md-arrow-dropright-circle {
+      color: #508AE4;
+    }
+    .ion-md-heart-outline {
+      color: #31D55F;
+    }
+    .action-sheet-cancel ion-icon,
+    .action-sheet-destructive ion-icon {
+      color: #757575;
+    }
+  }
